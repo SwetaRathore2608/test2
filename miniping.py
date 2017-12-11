@@ -9,6 +9,6 @@ def get_status_code(url):
 
 if __name__ == '__main__':
     if (len(sys.argv) != 2):
-        print(print 'Usage: %s <url>' % sys.argv[0])
+        print 'Usage: %s <url>' % sys.argv[0]
         sys.exit(0)
     print get_status_code(sys.argv[1])
