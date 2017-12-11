@@ -1,2 +1,2 @@
 test:
-	python miniping.t.py
+	python2 miniping.t.py
